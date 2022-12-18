@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "CormorantGaramond-Light";
+    src: url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVbBfiualwvFStSOsxMaA9Xk.eot?#iefix");
+    src: url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVbBfiualwvFStSOsxMaA9Xk.eot?#iefix") format("eot"),
+    url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVSNMxVe3WGf96EDbCaLCBKE.woff2") format("woff2"),
+    url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVergGQquJ_f3dxTxEJk8ZKM.woff") format("woff"),
+    url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVXYC8UqYVZ_Us7w6eA7MdZE.ttf") format("truetype"),
+    url("//fonts.gstatic.com/l/font?kit=iEjm9hVxcattz37Y8gZwVQItn0uMP03uW4URT5yNJ1A&skey=4f9ed6f80d6d2fa0&v=v5#CormorantGaramond") format("svg");
+  color: #5f5872;
+  background-color: rgb(248, 239, 228);
+  
+}
+
+
+nav {
+  top: 110px;
+  right: 0;
+}
+
+
+nav li {
+  display: inline;
+  margin: 0 0 0 120px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color:  #5f5872;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d5d5d5;;
+}
+
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+}
+section{
+  background-image: url("https://static.wixstatic.com/media/nsplsh_ab1ef4c5c6274b62b0bd2f6d9f68d14c~mv2.jpg/v1/fill/w_1349,h_1260,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_ab1ef4c5c6274b62b0bd2f6d9f68d14c~mv2.jpg");
+  background-size: 46em;
+  background-position: right;
+  font-size: xx-large;
+}
+.btn-primary {
+  background-color: #5f5872;
+  border: 1px solid #5f5872;
+}
+.btn-primary:hover {
+  background-color: #5f5872;
+  border: 1px solid #5f5872;
+}
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #5f5872;;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem; 
+}
+.fa-play {
+  color: #5f5872;;
+}
+.fa-clapperboard {
+  color: #5f5872;;
+}
+.fa-user-group {
+  color: #5f5872;;
+}
+.fa-play, .fa-clapperboard, .fa-user-group {
+  font-size: 4em;
+  margin: 1rem;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-instagram {
+  color: #5f5872;
+}
+.fa-youtube {
+  color: #5f5872;
+}
+.fa-twitter-square {
+  color: #5f5872;
+}
+.fa-tiktok {
+  color: #5f5872;
+}
+.fa-facebook {
+  color: #5f5872;
+}
+.fa-facebook:hover, 
+.fa-twitter-square:hover, 
+.fa-tiktok:hover, 
+.fa-instagram:hover, 
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+footer {
+  background-color: #5f5872;;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #5f5872;;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 480px) {
+
+  .nav {
+    position: static;
+    align-items:flex-start;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 300;
+    padding-bottom: .2rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
